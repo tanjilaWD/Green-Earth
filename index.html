@@ -10,6 +10,37 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-   
+   <main class="container mx-auto text-center mt-5">
+    <h2 class="text-[#4ade80] font-bold text-4xl">Choose Your Trees</h2>
+    
+    <div class="grid grid-cols-12 gap-8">
+
+        <!-- Categories -->
+        <div class="bg-white card card-body shadow-2xl col-span-3">
+            <h2 class="font-bold text-2xl">Categories</h2>
+            <div class="space-y-3">
+             <button class="btn btn-success w-full" id="allTreesbtn">All Trees</button> 
+
+             <!-- Categories container -->
+             <div id="CategoriesContainer" class="space-y-3">
+                <!-- categories will be dynamically loaded here by JS -->
+
+             </div> 
+            </div>
+        </div>
+         
+        <!-- 2nd part -->
+        <div class="bg-green-500 col-span-6">
+            Trees
+        </div>
+
+        <!-- 3rd part -->
+        <div class="bg-purple-500 col-span-3">
+            Cart
+        </div>
+    </div>
+   </main>
+
+   <script src="script.js"></script>
 </body>
 </html>
