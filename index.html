@@ -31,10 +31,11 @@
         </div>
          
         <!-- Trees -->
-        <div class="bg-green-500 col-span-6">
+        <div class="bg-white card card-body shadow-2xl col-span-6">
+          <!-- trees will rendered -->
            <div id="treesContainer" class="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <!-- dayamically added here -->
-             <!-- <div class="card bg-white shadow-sm">
+             <!-- <div class="card bg-white shadow-sm">         
   <figure>
     <img
       src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -51,10 +52,15 @@
   </div>
 </div> -->
            </div>
+           <!-- loading spinner -->
+          <div id="loadingSpinner" class="h-[60vh] hidden justify-center items-center">
+             <span className="loading loading-spinner text-neutral"></span>
+          </div>
+
         </div>
 
         <!-- Cart -->
-        <div class="bg-purple-500 col-span-3">
+        <div class="bg-white card card-body shadow-2xl col-span-3">
             Cart
         </div>
     </div>
